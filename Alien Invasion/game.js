@@ -24,3 +24,11 @@ var startGame = function() {
 window.addEventListener("load", function() {
 	Game.initialize("game", sprites, startGame);
 });
+
+
+var Starfield = function(speed, opacity, numStars, clear) {
+	// Set up the offscreen canvas
+	var stars = document.createElement("canvas");
+	stars.width = Game.width;
+	stars.height = Game.height;
+}; 
